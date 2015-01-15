@@ -1,0 +1,45 @@
+<section class="alt-section section-members">
+  <h3 id="members">Uczestnicy</h3>
+  {% for member in site.data.settings.members %}
+    <input type="radio" name="trigger" class="trigger" id="{{ member.folder }}" />
+  {% endfor %}
+
+  <input type="radio" name="trigger" id="return" class="return" />
+
+  <div class="member-belt">
+    
+    <div class="thumb-wrap">
+      <div class="thumb-container">
+      {% for member in site.data.settings.members %}
+      <label for="{{ member.folder }}">
+        <div class="thumb-unit" data-folder="{{ member.folder }}" style="background-image: url(assets/img/members/{{member.folder}}/thumb.jpg);"> 
+          <div class="thumb-overlay">
+            <strong>{{ member.name }}</strong>
+          </div>
+        </div>
+      </label>
+      {% endfor %}
+    </div>
+    </div>
+    
+    <div class="member-wrap">
+      <div class="member-container">
+      <label for="return">
+        <div class="member-return">{% include icons/icon-back.html %}</div>
+      </label>
+      <h4 class="member-name"></h4>
+      <div class="member-load"></div>
+      <noscript>
+        {% for member in site.data.settings.members %}
+          <div class="noscript" id="content-{{ member.folder }}">
+            <h4 class="member-name">{{ member.name }}</h4>
+            <div class="noscript-load">
+              {% include {{member.file}} %}
+            </div>
+          </div>
+        {% endfor %}
+      </noscript>
+    </div>
+    </div>    
+  </div>
+</section>

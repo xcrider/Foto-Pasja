@@ -1,0 +1,59 @@
+.logo-lockup
+  max-width: 780px
+  +display(flex)
+  margin: 0 auto
+  +align-items(center)
+  +justify-content(space-between)
+      
+  [class^="icon-"]
+    +size(80px)
+    background: $bgcolor
+    padding: 15px
+    border-radius: 70%
+    
+    &.icon-pencil
+      +order(1)
+    &.icon-mouse
+      +order(2)
+    &.icon-camera
+      +order(3)
+      +size(120px)
+      padding: 30px
+    &.icon-browser
+      +order(4)
+    &.icon-video
+      +order(5)
+
+@media screen and (max-width: 650px)
+  .logo-lockup
+    display: block
+    text-align: center
+    
+    div
+      display: inline-block
+      
+    [class^="icon-"]
+      margin: 10px 9%
+      +size(80px)
+      padding: 10px
+
+    &.icon-pencil
+      +order(1)
+    &.icon-mouse
+      +order(2)
+    &.icon-camera
+      +order(5)
+      +size(120px)
+      padding: 20px
+    &.icon-browser
+      +order(4)
+    &.icon-video
+      +order(3)
+
+.blurb
+  max-width: 640px
+  padding: 0 20px
+  margin: 50px auto
+  font-size: 22px
+  text-align: center
+  font-weight: 300

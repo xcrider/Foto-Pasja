@@ -1,0 +1,96 @@
+#-------------------------------
+# General Site Settings
+
+title: Foto Pasja
+description: Młodzieżowy Klub Fotograficzny
+email: fotopasja.cm@gmail.com
+address: Centrum Młodzieży im. dr. Henryka Jordana, Krupnicza 38, 31-123 Kraków
+copyright: Copyright 2014 - Foto Pasja MKF
+
+# NOTE: The Logo and Background image are defined in the all.sass document.
+
+menu:
+- {name: O nas, url: '#about-me'}
+- {name: Uczestnicy, url: '#members'}
+- {name: Projekty, url: '#projects'}
+- {name: Kontakt, url: '#contact'}
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Foto Pasja - to Krakowski Młodziezowy Klub Fotograficzny działający przy Centrum Młodzieży.'
+  rel-author: 'Karol Zawada'
+
+#-------------------------------
+# About Section
+
+# NOTE: The avatar is defined in the all.sass document.
+
+about: 
+  Młodzieżowy klub fotograficzny "Foto-Pasja" działa w Centrum Młodzieży
+  im. dr H. Jordana nieprzerwanie już od września 2006 roku. Nasz klub tworzą wspaniali ludzie,
+  którzy mimo różnic wiekowych łączy jedno wspólne zamiłowanie. Spotykamy się cyklicznie,
+  by porozmawiać o fotografii, nauczyć się czegoś nowego i wypróbować to w praktyce.
+  Konfrontujemy nasze zdjęcia z opinią wychowawcy oraz kolegów z grupy,
+  a także bierzemy udział w konkursach miesiąca.
+  Dzięki temu, że każdy z nas ma inny zasób wiedzy, mamy możliwość nauczyć się czegoś nowego od siebie 
+  - nie tylko na spotkaniach, ale również podczas emocjonujących projektów międzynarodowych!
+  Wyjeżdżamy za granicę, by poznać nowych ludzi, zwiedzić nieprzeciętne miejsca i szlifować języki.
+  Byliśmy między innymi w Niemczech, Rosji,Ukrainie, Słowacji, Czechach, Francji... a gdzie nas poniesie wiatr znowu?
+  Wpadnij do nas i przekonaj się na własnej skórze, że warto!
+#-------------------------------
+# Members Section
+
+members:
+- {name: Joanna Zbroja, folder: 'member-1', file: 'members/member-1.html'}
+- {name: Ula Marek, folder: 'member-2', file: 'members/member-2.html'}
+- {name: Marcin Piotrowicz, folder: 'member-3', file: 'members/member-3.html'}
+- {name: Klaudia Biśta, folder: 'member-4', file: 'members/member-4.html'}
+- {name: Agnieszka Bryksy, folder: 'member-5', file: 'members/member-5.html'}
+- {name: Kasia Szporna, folder: 'member-6', file: 'members/member-6.html'}
+- {name: Karol Zawada, folder: 'member-7', file: 'members/member-7.html'}
+- {name: Paweł Barket, folder: 'member-8', file: 'members/member-8.html'}
+
+
+#-------------------------------
+# Works Section
+
+projects:
+- {description: '<p><strong>Kraków - Norymberga „Kontrasty 2010 – Praca”</strong>
+Był to łączony projekt z Krakowskim Klubem Fotograficznym. Tematem przewodnim było „Miejsce pracy”. W Krakowie miała miejsce pierwsza część projektu. Odwiedziliśmy ZOO o 
+poranku w czasie karmienia zwierząt, zajezdnie tramwajową w Łagiewnikach oraz Fabrykę 
+Emalii Oskara Schindlera. Stworzyliśmy ze zdjęć niesamowitą wystawę o ludziach 
+pracujących w różnych zawodach, a także o ich środowisku pracy.</p>',
+  logo: 'logo1.svg'}
+- {description: '<p><strong>„UWAGA – WODA”</strong>
+Był to jeden z dziesięciu finałowych projektów konkursowych. Konkurs odbył się w ramach 
+zrównoważonego rozwoju, który zorganizowała Polsko-Niemiecka Współpraca Młodzieży.
+Uczestnikami były grupy młodzieży z Polski (Kraków), Czech (Praga) i Niemiec (Frankfurt 
+nad Menem).</p>',
+  logo: 'logo2.svg'}
+- {description: '<p><strong>Od poniedziałku do niedzieli – życie codzienne Polaków i Rosjan </strong> 
+(2013-2014) – polsko-rosyjski projekt realizowany w Krakowie oraz Moskwie. 
+Projekt miał na celu ukazanie typowego tygodnia z życia Polaków i Rosjan oraz 
+pokazanie że mimo różnic kulturowych nasza codzienność nie różni się zbytnio od
+siebie pomimo wszystkich stereotypów krążących wokół naszych kultur. Tematami były:
+praca, edukacja, dom i rodzina, pasje i sport, zakupy, kultura i rekreacja oraz wiara i tradycje rodzinne.
+Podobnie celebrujemy święta rodzinne i państwowe, podobnie spędzamy czas wolny i bawimy się,
+zakupy robimy chętnie w wielkich centrach handlowych, ale również na placach i bazarach. 
+Dużą różnicę zauważyliśmy jedynie w transporcie miejskim: polska młodzież bardzo polubiła 
+moskiewskie metro - szczególnie że oprócz walorów praktycznych i estetycznych jest to miejsce, 
+gdzie bardzo dobrze obserwuje się życie codzienne mieszkańców stolicy Rosji.
+</p>',
+  logo: 'logo3.svg'}
+
+
+#-------------------------------
+# Contact Section
+
+social:
+- {icon: 'facebook', link: 'https://www.facebook.com/MKF.fotopasja?fref=ts'}
+- {icon: 'instagram', link: 'http://instagram.com/mkf_fotopasja'}
+
+# social network icons available: 'facebook' / 'instagram' / 'pinterest'

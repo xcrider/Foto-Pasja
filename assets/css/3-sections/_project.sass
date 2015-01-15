@@ -1,0 +1,152 @@
+.section-projects
+  position: relative
+
+.projects-belt
+  width: 100%
+  position: relative
+  
+  .project-unit
+    max-width: 750px
+    margin: 50px auto
+    position: relative
+    z-index: 1
+    display: none
+
+    &.active-project
+      +display(flex)
+      @extend %#{$animation}
+    
+    .project-logo
+      min-width: 300px
+      text-align: center
+      
+      img
+        max-width: 100px
+        border-radius: 50%  
+        
+        
+      .project-name
+        display: block
+        text-transform: uppercase
+        font-weight: 400
+        letter-spacing: 1px
+      
+      .project-title
+        font-style: normal
+        font-size: 12px
+        color: #999
+      
+    .project-content
+      font-size: 18px
+      line-height: 36px
+      font-weight: 300
+      margin-top: -10px
+      position: relative
+      
+
+
+
+// Logos
+.projects-logos
+  position: relative
+  max-width: 750px
+  margin: 0px auto 100px
+  +display(flex)
+  +align-items(flex-end)
+  +justify-content(space-around)
+  
+  
+  .project-logo
+    cursor: pointer
+    margin: 0 20px 20px
+    padding-bottom: 20px
+    border-bottom: 4px solid transparent
+    opacity: 0.5
+    
+    &.active-project
+      opacity: 1
+      border-bottom: 4px solid $accent
+    
+
+.project-quote-mark
+  +position(absolute, -18px null null -15px)
+  +size(60px)
+  z-index: -1
+  opacity: 0.3
+  
+  path
+    fill: $accent
+
+
+
+// Controls
+.project-controls
+  +position(absolute, 0px 0px 0px 0px) 
+  
+  > div
+    +size(40px)
+    margin-top: -20px
+    cursor: pointer
+    
+    path
+      fill: $accent
+    
+  .project-control-next
+    +position(absolute, 50% 10px null null)
+  
+  .project-control-prev
+    +position(absolute, 50% null null 10px)
+
+// projects-mobile-nav
+.projects-mobile-nav
+  text-align: center
+  position: relative
+  z-index: 2
+  display: none
+  
+  span
+    display: inline-block
+    +size(16px)
+    border-radius: 50%
+    border: solid 2px $bgcolor
+    margin: 0px 10px
+    cursor: pointer
+    
+    &.active-project
+      border-color: $accent
+    
+    
+    
+
+@media (max-width: 750px)
+  .projects-logos
+    +flex-wrap(wrap)
+  
+  .projects-belt 
+    overflow-x: hidden
+    
+    .project-unit.active-project
+      display: block
+      position: relative
+      margin-left: 0px
+      left: auto
+    
+      .project-logo
+        margin-bottom: 30px
+      
+      .project-content
+        padding: 0px 30px
+        max-width: 400px
+        margin: 0px auto
+      
+      .project-quote-mark
+        left: 6px
+
+  .project-controls
+    display: none
+  
+  .projects-logos
+    display: none
+
+  .projects-mobile-nav
+    display: block

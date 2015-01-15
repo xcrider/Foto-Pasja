@@ -1,0 +1,35 @@
+<section class="section-projects">
+
+  <h3 id="projects">Projekty </h3>
+
+  <div class="projects-mobile-nav">
+    {% for project in site.data.settings.projects %}
+    <span></span>
+    {% endfor %}
+  </div>
+  
+  <div class="projects-belt">
+  
+    {% for project in site.data.settings.projects %}
+    <div class="project-unit">
+      <div class="project-content">
+        <div class="project-quote-mark">{% include icons/icon-quote-mark.html %}</div>
+        {{ project.description }}
+      </div>
+      
+    </div>
+    {% endfor %}
+    
+  </div>
+  
+  <div class="project-controls">
+    <div class="project-control-next">{% include icons/icon-next.html %}</div>
+    <div class="project-control-prev">{% include icons/icon-prev.html %}</div>
+  </div>
+  
+  <div class="projects-logos">
+    {% for project in site.data.settings.projects %}
+    <img class="project-logo" src="assets/img/projects/{{ project.logo }}" align="{{ project.logo }}">
+    {% endfor %}
+  </div>
+</section>

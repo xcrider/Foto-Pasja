@@ -1,0 +1,16 @@
+# Layout settings
+animation: "topDown"
+
+# Images
+logo: "logo.png"
+bg: "header-img.jpg"
+
+
+# Colors
+accent: "#0784AD"
+accent-light: "#09AADE"
+bgcolor: "#EDEAEA"
+documentBackgroundColor: "#fff"
+headlineColor: "#09AADE"
+textColor: "#666"
+selectionColor: "#09AADE"

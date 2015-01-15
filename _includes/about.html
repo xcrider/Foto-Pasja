@@ -1,0 +1,18 @@
+<section>
+
+  <h3 id="about-me">O Foto Pasji</h3>
+  
+  <div class="logo-lockup">
+
+    <div class="icon-pencil">{% include icons/icon-collaboration.html %}</div>
+    <div class="icon-mouse">{% include icons/icon-ideas.html %}</div>
+    <div class="icon-browser">{% include icons/icon-vote.html %}</div>
+    <div class="icon-video">{% include icons/icon-exhibition.html %}</div>
+    <div class="icon-camera">{% include icons/icon-camera.html %}</div>
+  </div>
+  
+  <div class="blurb">
+    {{ site.data.settings.about | markdownify }}
+  </div>
+
+</section>

@@ -1,0 +1,43 @@
+header
+  @extend %background-image
+  background:
+    position: 50% 50%
+    image: url(../img/#{$logo-path}), url(../img/#{$bg-path})
+  padding-bottom: 45%
+  
+  .logo
+    float: left
+    margin: 10px 0 0 30px
+    
+    path
+      fill: rgba(0,0,0,0.4)
+    
+  nav
+    float: right
+    padding: 30px 30px 0 0
+    
+    a
+      display: inline-block
+      margin-left: 20px
+      
+      color: white
+      @extend %small-bold
+      
+      &:hover
+        color: rgba(0,0,0,0.7)
+    
+    span
+      display: inline-block
+      padding: 0.2em 0.5em
+      border: white solid 10px
+
+@media (max-width: 760px)
+  header
+    background:
+      position: 50% 20px, 50% 50%
+  
+    nav
+      float: none
+      text-align: center
+      padding-bottom: 90px
+      display: block
