@@ -47,12 +47,16 @@ about:
 members:
 - {name: Joanna Zbroja, folder: 'member-1', file: 'members/member-1.html'}
 - {name: Ula Marek, folder: 'member-2', file: 'members/member-2.html'}
-- {name: Marcin Piotrowicz, folder: 'member-3', file: 'members/member-3.html'}
+- {name: Dorota Muniak, folder: 'member-3', file: 'members/member-3.html'}
 - {name: Klaudia Biśta, folder: 'member-4', file: 'members/member-4.html'}
 - {name: Agnieszka Bryksy, folder: 'member-5', file: 'members/member-5.html'}
 - {name: Kasia Szporna, folder: 'member-6', file: 'members/member-6.html'}
 - {name: Karol Zawada, folder: 'member-7', file: 'members/member-7.html'}
 - {name: Paweł Barket, folder: 'member-8', file: 'members/member-8.html'}
+- {name: Filip Polit, folder: 'member-9', file: 'members/member-9.html'}
+- {name: Ewa Wantuch, folder: 'member-10', file: 'members/member-10.html'}
+- {name: Monika Stachnik-Czapla, folder: 'member-11', file: 'members/member-11.html'}
+- {name: Marta Skiba, folder: 'member-12', file: 'members/member-12.html'}
 
 
 #-------------------------------
