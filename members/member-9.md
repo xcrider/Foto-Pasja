@@ -15,6 +15,3 @@ Wieczny poszukiwacz własnego miejsca w fotografii. Od początku jednak najbardz
 ![Filip Polit](assets/img/members/member-9/img4.jpg)
 ![Filip Polit](assets/img/members/member-9/img5.jpg)
 ![Filip Polit](assets/img/members/member-9/img6.jpg)
-![Filip Polit](assets/img/members/member-9/img7.jpg)
-![Filip Polit](assets/img/members/member-9/img8.jpg)
-![Filip Polit](assets/img/members/member-9/img9.jpg)
