@@ -4,9 +4,7 @@ title: Marta Skiba
 
 ![Marta Skiba](assets/img/members/member-12/img1.jpg)
 
-<p class="blurb">
 
-</p>
 
 ![Marta Skiba](/assets/img/members/member-12/img2.jpg)
 ![Marta Skiba](/assets/img/members/member-12/img3.jpg)
