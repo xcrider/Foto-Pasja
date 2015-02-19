@@ -94,7 +94,7 @@ function memberBelt() {
 }
 
 function  memberLoad() {
-  $.ajaxSetup({ cache: true });
+  $.ajaxSetup({ cache: false });
   $('.thumb-unit').click(function() {
     var $this = $(this),
         newName = $this.find('strong').text(),
