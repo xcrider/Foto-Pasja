@@ -3,7 +3,7 @@
 title: Dorota Muniak
 ---
 
-![Dorota Muniak](assets/img/members/member-1/img1.jpg)
+![Dorota Muniak](assets/img/members/member-9/img1.jpg)
 
 <p class="blurb">
 Nazywam się Dorota Muniak. Fotografia jest moją pasją od lat, ale na poważnie zaczęłam się interesować nią od 2008 roku. 
@@ -13,7 +13,8 @@ Chciałabym, aby fotografia nie tylko była moją pasją ale także pracą, bo n
 Dlatego staram się uczyć jak najwięcej tak aby za jakiś czas powiedzieć sobie, że to co robię, robię naprawdę dobrze. 
 W swoich fotografiach staram się uchwycić ulotną chwilę i pokazać ją na moich zdjęciach. 
 Uważam że magią fotografii jest postrzeganie miejsc czy ludzi w zupełnie indywidualny, nowy sposób. 
-Staram się na swoich zdjęciach pokazać „inność”, chciałabym aby każdemu kto ogląda moje prace utkwiły w pamięci na dłuższy czas.</p>
+Staram się na swoich zdjęciach pokazać „inność”, chciałabym aby każdemu kto ogląda moje prace utkwiły w pamięci na dłuższy czas.
+</p>
 
 
 ![Dorota Muniak](/assets/img/members/member-9/img2.jpg)
