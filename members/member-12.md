@@ -5,7 +5,7 @@ title: Marta Skiba
 ![Marta Skiba](assets/img/members/member-12/img1.jpg)
 
 <p class = "blurb">
-Marta Skiba Fotografia
+W fotografii zajmuję się głównie portretem. Najczęściej fotografuję kobiety, które mnie fascynują. Kocham podróże i poznawanie nowych miejsc i osób.
 </p>
 
 ![Marta Skiba ](assets/img/members/member-12/img2.jpg)
