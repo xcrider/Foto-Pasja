@@ -740,7 +740,13 @@ footer {
     margin: 50px auto;
     position: relative;
     z-index: 1;
-    display: none; }
+    display: none;
+  }
+    @media (max-width: 950px){
+      .project-unit p {
+        max-width: 650px;
+
+      } }
     .projects-belt .project-unit.active-project {
       display: -webkit-box;
       display: -moz-box;
