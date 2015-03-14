@@ -724,7 +724,7 @@
       .member-container .member-return:hover {
         opacity: 1; }
 
-  @media (max-width: 740px) {
+  @media screen and (max-width: 740px) {
     .member-container .member-return {
       left: 0px; }
     .member-container h4 {
@@ -776,13 +776,11 @@
               font-size: 18px;
               line-height: 36px;
               font-weight: 300;
-    margin-top: -10px;
-    position: relative;
-    max-width: 650px;
-    text-align: justify;
-    margin-left: 50px;
-        }
-      }
+              margin-top: -10px;
+              position: relative;
+              max-width: 650px;
+              text-align: justify;
+              margin-left: 50px; }}
 
   .projects-logos {
     position: relative;
